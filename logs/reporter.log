@@ -1,0 +1,1327 @@
+2019-08-25T03:35:41.045Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T03:35:41.047Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T03:35:41.056Z - info: Searching for available extensions in c:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T03:35:41.059Z - info: Extensions location cache not found, crawling directories
+2019-08-25T03:35:42.534Z - info: Found 30 extensions
+2019-08-25T03:35:42.735Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T03:35:42.736Z - debug: Discovered 30 extensions
+2019-08-25T03:35:42.742Z - info: Using extension jsrender
+2019-08-25T03:35:42.746Z - info: Using extension fop-pdf
+2019-08-25T03:35:43.056Z - info: Using extension handlebars
+2019-08-25T03:35:43.061Z - info: Using extension templates
+2019-08-25T03:35:43.081Z - info: Using extension html-to-xlsx
+2019-08-25T03:35:43.753Z - info: Using extension data
+2019-08-25T03:35:44.262Z - info: Using extension phantom-pdf
+2019-08-25T03:35:44.645Z - info: Using extension text
+2019-08-25T03:35:44.650Z - info: Using extension assets
+2019-08-25T03:35:44.731Z - info: Using extension scripts
+2019-08-25T03:35:45.122Z - info: Using extension xlsx
+2019-08-25T03:35:47.193Z - info: Creating memory store
+2019-08-25T03:35:47.253Z - info: reporter initialized
+2019-08-25T03:35:47.255Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T03:35:47.259Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T03:35:47.259Z - debug: Inline data specified. requestId=1
+2019-08-25T03:35:47.284Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T03:35:57.298Z - error: Error when processing render request Error during rendering report: Timeout error during executing script Error: Timeout error during executing script
+    at Timeout._onTimeout (c:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\script-manager\lib\manager-processes.js:24:8)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at unrefdHandle (timers.js:520:7)
+    at Timer.processTimers (timers.js:222:12) requestId=1
+2019-08-25T03:39:26.833Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T03:39:26.834Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T03:39:26.841Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T03:39:26.845Z - info: Extensions location cache doesn't contain entry yet, crawling
+2019-08-25T03:39:27.897Z - info: Found 30 extensions
+2019-08-25T03:39:27.923Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T03:39:27.925Z - debug: Discovered 30 extensions
+2019-08-25T03:39:27.931Z - info: Using extension jsrender
+2019-08-25T03:39:27.934Z - info: Using extension fop-pdf
+2019-08-25T03:39:28.000Z - info: Using extension handlebars
+2019-08-25T03:39:28.003Z - info: Using extension templates
+2019-08-25T03:39:28.014Z - info: Using extension html-to-xlsx
+2019-08-25T03:39:28.182Z - info: Using extension data
+2019-08-25T03:39:28.243Z - info: Using extension phantom-pdf
+2019-08-25T03:39:28.336Z - info: Using extension text
+2019-08-25T03:39:28.338Z - info: Using extension assets
+2019-08-25T03:39:28.375Z - info: Using extension scripts
+2019-08-25T03:39:28.425Z - info: Using extension xlsx
+2019-08-25T03:39:28.937Z - info: Creating memory store
+2019-08-25T03:39:28.960Z - info: reporter initialized
+2019-08-25T03:39:28.962Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T03:39:28.963Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T03:39:28.964Z - debug: Inline data specified. requestId=1
+2019-08-25T03:39:28.968Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T03:39:29.251Z - error: Error when processing render request Error during rendering report: Parse error on line 56:
+...    <span>{{ p.nome.toUpperCase() }}</sp
+-----------------------^
+Expecting 'ID', got 'INVALID' C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267
+            throw new Error(str);
+            ^
+
+Error: Parse error on line 56:
+...    <span>{{ p.nome.toUpperCase() }}</sp
+-----------------------^
+Expecting 'ID', got 'INVALID'
+    at Parser.parseError (C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at HandlebarsEnvironment.parse (C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:514:19)
+    at ret (C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:523:18)
+    at C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at Script.runInContext (vm.js:133:20)
+    at Script.runInNewContext (vm.js:139:17)
+    at Object.runInNewContext (vm.js:322:38) requestId=1
+2019-08-25T03:46:59.818Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T03:46:59.820Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T03:46:59.824Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T03:46:59.836Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T03:46:59.852Z - info: Found 30 extensions
+2019-08-25T03:46:59.901Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T03:46:59.904Z - debug: Discovered 30 extensions
+2019-08-25T03:46:59.912Z - info: Using extension jsrender
+2019-08-25T03:46:59.918Z - info: Using extension fop-pdf
+2019-08-25T03:47:00.044Z - info: Using extension handlebars
+2019-08-25T03:47:00.059Z - info: Using extension templates
+2019-08-25T03:47:00.069Z - info: Using extension html-to-xlsx
+2019-08-25T03:47:00.234Z - info: Using extension data
+2019-08-25T03:47:00.293Z - info: Using extension phantom-pdf
+2019-08-25T03:47:00.383Z - info: Using extension text
+2019-08-25T03:47:00.384Z - info: Using extension assets
+2019-08-25T03:47:00.423Z - info: Using extension scripts
+2019-08-25T03:47:00.472Z - info: Using extension xlsx
+2019-08-25T03:47:00.981Z - info: Creating memory store
+2019-08-25T03:47:01.027Z - info: reporter initialized
+2019-08-25T03:47:01.030Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T03:47:01.031Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T03:47:01.033Z - debug: Inline data specified. requestId=1
+2019-08-25T03:47:01.050Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T03:47:01.341Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 00:47:01 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:47:01.343Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T03:47:05.570Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 00:47:04 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:47:05.571Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Cfef27420-c6ea-11e9-b866-ffc753ead05chtml.html timestamp=Sun Aug 25 2019 00:47:04 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:47:05.582Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 00:47:04 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:47:05.583Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 00:47:04 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:47:05.584Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 00:47:04 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:47:05.600Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T03:47:05.603Z - info: Rendering request 1 finished in 4573 ms requestId=1
+2019-08-25T03:48:34.403Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T03:48:34.414Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T03:48:34.429Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T03:48:34.445Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T03:48:34.462Z - info: Found 30 extensions
+2019-08-25T03:48:34.496Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T03:48:34.510Z - debug: Discovered 30 extensions
+2019-08-25T03:48:34.512Z - info: Using extension jsrender
+2019-08-25T03:48:34.513Z - info: Using extension fop-pdf
+2019-08-25T03:48:34.596Z - info: Using extension handlebars
+2019-08-25T03:48:34.608Z - info: Using extension templates
+2019-08-25T03:48:34.626Z - info: Using extension html-to-xlsx
+2019-08-25T03:48:34.834Z - info: Using extension data
+2019-08-25T03:48:34.900Z - info: Using extension phantom-pdf
+2019-08-25T03:48:34.990Z - info: Using extension text
+2019-08-25T03:48:34.991Z - info: Using extension assets
+2019-08-25T03:48:35.037Z - info: Using extension scripts
+2019-08-25T03:48:35.118Z - info: Using extension xlsx
+2019-08-25T03:48:35.642Z - info: Creating memory store
+2019-08-25T03:48:35.690Z - info: reporter initialized
+2019-08-25T03:48:35.700Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T03:48:35.703Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T03:48:35.704Z - debug: Inline data specified. requestId=1
+2019-08-25T03:48:35.708Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T03:48:35.926Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 00:48:35 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:48:35.927Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T03:48:36.662Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 00:48:36 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:48:36.662Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C3752d3a0-c6eb-11e9-b8fa-f3a940da4caahtml.html timestamp=Sun Aug 25 2019 00:48:36 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:48:36.676Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 00:48:36 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:48:36.677Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 00:48:36 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:48:36.678Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 00:48:36 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:48:36.703Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T03:48:36.706Z - info: Rendering request 1 finished in 1015 ms requestId=1
+2019-08-25T03:52:00.820Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T03:52:00.836Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T03:52:00.841Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T03:52:00.847Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T03:52:00.864Z - info: Found 30 extensions
+2019-08-25T03:52:00.922Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T03:52:00.924Z - debug: Discovered 30 extensions
+2019-08-25T03:52:00.925Z - info: Using extension jsrender
+2019-08-25T03:52:00.927Z - info: Using extension fop-pdf
+2019-08-25T03:52:00.998Z - info: Using extension handlebars
+2019-08-25T03:52:01.011Z - info: Using extension templates
+2019-08-25T03:52:01.031Z - info: Using extension html-to-xlsx
+2019-08-25T03:52:01.203Z - info: Using extension data
+2019-08-25T03:52:01.262Z - info: Using extension phantom-pdf
+2019-08-25T03:52:01.350Z - info: Using extension text
+2019-08-25T03:52:01.352Z - info: Using extension assets
+2019-08-25T03:52:01.393Z - info: Using extension scripts
+2019-08-25T03:52:01.445Z - info: Using extension xlsx
+2019-08-25T03:52:01.952Z - info: Creating memory store
+2019-08-25T03:52:01.992Z - info: reporter initialized
+2019-08-25T03:52:01.993Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T03:52:01.994Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T03:52:01.994Z - debug: Inline data specified. requestId=1
+2019-08-25T03:52:02.012Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T03:52:02.251Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 00:52:02 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:52:02.253Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T03:52:03.102Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 00:52:02 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:52:03.103Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Cb24dad00-c6eb-11e9-a8cf-13d7cd81a514html.html timestamp=Sun Aug 25 2019 00:52:02 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:52:03.112Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 00:52:02 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:52:03.113Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 00:52:02 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:52:03.115Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 00:52:02 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:52:03.127Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T03:52:03.129Z - info: Rendering request 1 finished in 1136 ms requestId=1
+2019-08-25T03:55:28.040Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T03:55:28.049Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T03:55:28.059Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T03:55:28.076Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T03:55:28.093Z - info: Found 30 extensions
+2019-08-25T03:55:28.124Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T03:55:28.126Z - debug: Discovered 30 extensions
+2019-08-25T03:55:28.127Z - info: Using extension jsrender
+2019-08-25T03:55:28.128Z - info: Using extension fop-pdf
+2019-08-25T03:55:28.192Z - info: Using extension handlebars
+2019-08-25T03:55:28.194Z - info: Using extension templates
+2019-08-25T03:55:28.209Z - info: Using extension html-to-xlsx
+2019-08-25T03:55:28.384Z - info: Using extension data
+2019-08-25T03:55:28.441Z - info: Using extension phantom-pdf
+2019-08-25T03:55:28.528Z - info: Using extension text
+2019-08-25T03:55:28.529Z - info: Using extension assets
+2019-08-25T03:55:28.559Z - info: Using extension scripts
+2019-08-25T03:55:28.610Z - info: Using extension xlsx
+2019-08-25T03:55:29.107Z - info: Creating memory store
+2019-08-25T03:55:29.143Z - info: reporter initialized
+2019-08-25T03:55:29.144Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T03:55:29.145Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T03:55:29.145Z - debug: Inline data specified. requestId=1
+2019-08-25T03:55:29.162Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T03:55:29.439Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 00:55:29 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:55:29.441Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T03:55:30.154Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 00:55:30 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:55:30.163Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C2dcc3550-c6ec-11e9-a2ae-83c829d010fahtml.html timestamp=Sun Aug 25 2019 00:55:30 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:55:30.163Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 00:55:30 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:55:30.164Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 00:55:30 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:55:30.165Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 00:55:30 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T03:55:30.180Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T03:55:30.182Z - info: Rendering request 1 finished in 1038 ms requestId=1
+2019-08-25T04:00:53.985Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:00:53.995Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:00:53.999Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:00:54.006Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:00:54.020Z - info: Found 30 extensions
+2019-08-25T04:00:54.061Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:00:54.065Z - debug: Discovered 30 extensions
+2019-08-25T04:00:54.066Z - info: Using extension jsrender
+2019-08-25T04:00:54.068Z - info: Using extension fop-pdf
+2019-08-25T04:00:54.126Z - info: Using extension handlebars
+2019-08-25T04:00:54.138Z - info: Using extension templates
+2019-08-25T04:00:54.155Z - info: Using extension html-to-xlsx
+2019-08-25T04:00:54.391Z - info: Using extension data
+2019-08-25T04:00:54.451Z - info: Using extension phantom-pdf
+2019-08-25T04:00:54.538Z - info: Using extension text
+2019-08-25T04:00:54.539Z - info: Using extension assets
+2019-08-25T04:00:54.573Z - info: Using extension scripts
+2019-08-25T04:00:54.622Z - info: Using extension xlsx
+2019-08-25T04:00:55.156Z - info: Creating memory store
+2019-08-25T04:00:55.175Z - info: reporter initialized
+2019-08-25T04:00:55.177Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:00:55.184Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:00:55.185Z - debug: Inline data specified. requestId=1
+2019-08-25T04:00:55.191Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:00:55.463Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:00:55 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:00:55.465Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:00:56.407Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:00:56 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:00:56.408Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Cf01f5ec0-c6ec-11e9-9f29-957d6454189chtml.html timestamp=Sun Aug 25 2019 01:00:56 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:00:56.408Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:00:56 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:00:56.418Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:00:56 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:00:56.421Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:00:56 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:00:56.424Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:00:56.425Z - info: Rendering request 1 finished in 1250 ms requestId=1
+2019-08-25T04:01:00.119Z - info: Starting rendering request 2 (user: null) requestId=2
+2019-08-25T04:01:00.120Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=2
+2019-08-25T04:01:00.121Z - debug: Inline data specified. requestId=2
+2019-08-25T04:01:00.122Z - debug: Rendering engine handlebars requestId=2
+2019-08-25T04:01:00.406Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:01:00 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:01:00.407Z - debug: Executing recipe phantom-pdf requestId=2
+2019-08-25T04:01:01.107Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:01:00 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:01:01.108Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Cf3112780-c6ec-11e9-9f29-957d6454189chtml.html timestamp=Sun Aug 25 2019 01:01:00 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:01:01.109Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:01:00 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:01:01.118Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:01:00 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:01:01.120Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:01:00 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:01:01.122Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=2
+2019-08-25T04:01:01.123Z - info: Rendering request 2 finished in 1016 ms requestId=2
+2019-08-25T04:02:14.044Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:02:14.054Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:02:14.059Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:02:14.065Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:02:14.080Z - info: Found 30 extensions
+2019-08-25T04:02:14.117Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:02:14.131Z - debug: Discovered 30 extensions
+2019-08-25T04:02:14.132Z - info: Using extension jsrender
+2019-08-25T04:02:14.134Z - info: Using extension fop-pdf
+2019-08-25T04:02:14.202Z - info: Using extension handlebars
+2019-08-25T04:02:14.217Z - info: Using extension templates
+2019-08-25T04:02:14.236Z - info: Using extension html-to-xlsx
+2019-08-25T04:02:14.404Z - info: Using extension data
+2019-08-25T04:02:14.466Z - info: Using extension phantom-pdf
+2019-08-25T04:02:14.556Z - info: Using extension text
+2019-08-25T04:02:14.558Z - info: Using extension assets
+2019-08-25T04:02:14.593Z - info: Using extension scripts
+2019-08-25T04:02:14.647Z - info: Using extension xlsx
+2019-08-25T04:02:15.174Z - info: Creating memory store
+2019-08-25T04:02:15.195Z - info: reporter initialized
+2019-08-25T04:02:15.198Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:02:15.199Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:02:15.199Z - debug: Inline data specified. requestId=1
+2019-08-25T04:02:15.212Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:02:15.450Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:02:15 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:02:15.452Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:02:16.136Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:02:16 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:02:16.148Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C1fcc9200-c6ed-11e9-9181-8fb0fd6ea01dhtml.html timestamp=Sun Aug 25 2019 01:02:16 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:02:16.148Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:02:16 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:02:16.150Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:02:16 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:02:16.152Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:02:16 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:02:16.164Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:02:16.166Z - info: Rendering request 1 finished in 971 ms requestId=1
+2019-08-25T04:03:29.521Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:03:29.533Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:03:29.537Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:03:29.543Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:03:29.558Z - info: Found 30 extensions
+2019-08-25T04:03:29.592Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:03:29.594Z - debug: Discovered 30 extensions
+2019-08-25T04:03:29.595Z - info: Using extension jsrender
+2019-08-25T04:03:29.596Z - info: Using extension fop-pdf
+2019-08-25T04:03:29.675Z - info: Using extension handlebars
+2019-08-25T04:03:29.687Z - info: Using extension templates
+2019-08-25T04:03:29.694Z - info: Using extension html-to-xlsx
+2019-08-25T04:03:29.860Z - info: Using extension data
+2019-08-25T04:03:29.924Z - info: Using extension phantom-pdf
+2019-08-25T04:03:30.028Z - info: Using extension text
+2019-08-25T04:03:30.030Z - info: Using extension assets
+2019-08-25T04:03:30.072Z - info: Using extension scripts
+2019-08-25T04:03:30.129Z - info: Using extension xlsx
+2019-08-25T04:03:30.665Z - info: Creating memory store
+2019-08-25T04:03:30.702Z - info: reporter initialized
+2019-08-25T04:03:30.704Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:03:30.709Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:03:30.710Z - debug: Inline data specified. requestId=1
+2019-08-25T04:03:30.724Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:03:31.042Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:03:31 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:03:31.043Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:03:31.745Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:03:31 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:03:31.746Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C4cdad770-c6ed-11e9-83db-330c5659ecachtml.html timestamp=Sun Aug 25 2019 01:03:31 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:03:31.757Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:03:31 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:03:31.758Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:03:31 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:03:31.760Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:03:31 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:03:31.762Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:03:31.763Z - info: Rendering request 1 finished in 1060 ms requestId=1
+2019-08-25T04:05:08.321Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:05:08.335Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:05:08.339Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:05:08.355Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:05:08.372Z - info: Found 30 extensions
+2019-08-25T04:05:08.414Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:05:08.416Z - debug: Discovered 30 extensions
+2019-08-25T04:05:08.417Z - info: Using extension jsrender
+2019-08-25T04:05:08.419Z - info: Using extension fop-pdf
+2019-08-25T04:05:08.498Z - info: Using extension handlebars
+2019-08-25T04:05:08.513Z - info: Using extension templates
+2019-08-25T04:05:08.520Z - info: Using extension html-to-xlsx
+2019-08-25T04:05:08.695Z - info: Using extension data
+2019-08-25T04:05:08.758Z - info: Using extension phantom-pdf
+2019-08-25T04:05:08.851Z - info: Using extension text
+2019-08-25T04:05:08.853Z - info: Using extension assets
+2019-08-25T04:05:08.890Z - info: Using extension scripts
+2019-08-25T04:05:08.948Z - info: Using extension xlsx
+2019-08-25T04:05:09.481Z - info: Creating memory store
+2019-08-25T04:05:09.523Z - info: reporter initialized
+2019-08-25T04:05:09.526Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:05:09.543Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:05:09.552Z - debug: Inline data specified. requestId=1
+2019-08-25T04:05:09.568Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:05:09.916Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:05:09 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:05:09.948Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:05:11.022Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:05:10 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:05:11.023Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C87cf2840-c6ed-11e9-969b-e12709d1c1b1html.html timestamp=Sun Aug 25 2019 01:05:10 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:05:11.024Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:05:10 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:05:11.035Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:05:10 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:05:11.037Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:05:10 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:05:11.051Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:05:11.054Z - info: Rendering request 1 finished in 1528 ms requestId=1
+2019-08-25T04:06:10.693Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:06:10.709Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:06:10.712Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:06:10.717Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:06:10.726Z - info: Found 30 extensions
+2019-08-25T04:06:10.764Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:06:10.767Z - debug: Discovered 30 extensions
+2019-08-25T04:06:10.769Z - info: Using extension jsrender
+2019-08-25T04:06:10.780Z - info: Using extension fop-pdf
+2019-08-25T04:06:10.841Z - info: Using extension handlebars
+2019-08-25T04:06:10.861Z - info: Using extension templates
+2019-08-25T04:06:10.881Z - info: Using extension html-to-xlsx
+2019-08-25T04:06:11.050Z - info: Using extension data
+2019-08-25T04:06:11.115Z - info: Using extension phantom-pdf
+2019-08-25T04:06:11.212Z - info: Using extension text
+2019-08-25T04:06:11.222Z - info: Using extension assets
+2019-08-25T04:06:11.258Z - info: Using extension scripts
+2019-08-25T04:06:11.314Z - info: Using extension xlsx
+2019-08-25T04:06:11.837Z - info: Creating memory store
+2019-08-25T04:06:11.877Z - info: reporter initialized
+2019-08-25T04:06:11.879Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:06:11.880Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:06:11.880Z - debug: Inline data specified. requestId=1
+2019-08-25T04:06:11.898Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:06:12.209Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:06:12 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:06:12.212Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:06:12.924Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:06:12 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:06:12.925Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Caceb2070-c6ed-11e9-93cf-83029b96b788html.html timestamp=Sun Aug 25 2019 01:06:12 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:06:12.935Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:06:12 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:06:12.937Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:06:12 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:06:12.939Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:06:12 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:06:12.942Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:06:12.944Z - info: Rendering request 1 finished in 1066 ms requestId=1
+2019-08-25T04:07:18.857Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:07:18.869Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:07:18.873Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:07:18.878Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:07:18.892Z - info: Found 30 extensions
+2019-08-25T04:07:18.927Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:07:18.930Z - debug: Discovered 30 extensions
+2019-08-25T04:07:18.944Z - info: Using extension jsrender
+2019-08-25T04:07:19.015Z - info: Using extension fop-pdf
+2019-08-25T04:07:19.133Z - info: Using extension handlebars
+2019-08-25T04:07:19.146Z - info: Using extension templates
+2019-08-25T04:07:19.157Z - info: Using extension html-to-xlsx
+2019-08-25T04:07:19.324Z - info: Using extension data
+2019-08-25T04:07:19.384Z - info: Using extension phantom-pdf
+2019-08-25T04:07:19.476Z - info: Using extension text
+2019-08-25T04:07:19.478Z - info: Using extension assets
+2019-08-25T04:07:19.515Z - info: Using extension scripts
+2019-08-25T04:07:19.567Z - info: Using extension xlsx
+2019-08-25T04:07:20.086Z - info: Creating memory store
+2019-08-25T04:07:20.122Z - info: reporter initialized
+2019-08-25T04:07:20.123Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:07:20.124Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:07:20.125Z - debug: Inline data specified. requestId=1
+2019-08-25T04:07:20.143Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:07:20.400Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:07:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:20.402Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:07:21.115Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:07:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:21.116Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Cd5903f60-c6ed-11e9-b421-7fbd00066798html.html timestamp=Sun Aug 25 2019 01:07:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:21.126Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:07:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:21.127Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:07:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:21.129Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:07:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:21.142Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:07:21.145Z - info: Rendering request 1 finished in 1020 ms requestId=1
+2019-08-25T04:07:43.849Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:07:43.859Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:07:43.873Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:07:43.891Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:07:43.908Z - info: Found 30 extensions
+2019-08-25T04:07:43.945Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:07:43.950Z - debug: Discovered 30 extensions
+2019-08-25T04:07:43.951Z - info: Using extension jsrender
+2019-08-25T04:07:43.954Z - info: Using extension fop-pdf
+2019-08-25T04:07:44.019Z - info: Using extension handlebars
+2019-08-25T04:07:44.035Z - info: Using extension templates
+2019-08-25T04:07:44.043Z - info: Using extension html-to-xlsx
+2019-08-25T04:07:44.204Z - info: Using extension data
+2019-08-25T04:07:44.260Z - info: Using extension phantom-pdf
+2019-08-25T04:07:44.350Z - info: Using extension text
+2019-08-25T04:07:44.352Z - info: Using extension assets
+2019-08-25T04:07:44.389Z - info: Using extension scripts
+2019-08-25T04:07:44.442Z - info: Using extension xlsx
+2019-08-25T04:07:44.987Z - info: Creating memory store
+2019-08-25T04:07:45.028Z - info: reporter initialized
+2019-08-25T04:07:45.029Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:07:45.038Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:07:45.039Z - debug: Inline data specified. requestId=1
+2019-08-25T04:07:45.058Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:07:45.287Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:07:45 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:45.289Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:07:45.990Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:07:45 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:45.991Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Ce4658cc0-c6ed-11e9-843e-eb9a789dc91fhtml.html timestamp=Sun Aug 25 2019 01:07:45 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:45.992Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:07:45 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:46.007Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:07:45 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:46.008Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:07:45 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:07:46.011Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:07:46.013Z - info: Rendering request 1 finished in 984 ms requestId=1
+2019-08-25T04:08:46.428Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:08:46.434Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:08:46.438Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:08:46.448Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:08:46.456Z - info: Found 30 extensions
+2019-08-25T04:08:46.484Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:08:46.485Z - debug: Discovered 30 extensions
+2019-08-25T04:08:46.491Z - info: Using extension jsrender
+2019-08-25T04:08:46.494Z - info: Using extension fop-pdf
+2019-08-25T04:08:46.548Z - info: Using extension handlebars
+2019-08-25T04:08:46.554Z - info: Using extension templates
+2019-08-25T04:08:46.565Z - info: Using extension html-to-xlsx
+2019-08-25T04:08:46.736Z - info: Using extension data
+2019-08-25T04:08:46.789Z - info: Using extension phantom-pdf
+2019-08-25T04:08:46.871Z - info: Using extension text
+2019-08-25T04:08:46.872Z - info: Using extension assets
+2019-08-25T04:08:46.903Z - info: Using extension scripts
+2019-08-25T04:08:46.953Z - info: Using extension xlsx
+2019-08-25T04:08:47.456Z - info: Creating memory store
+2019-08-25T04:08:47.491Z - info: reporter initialized
+2019-08-25T04:08:47.493Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:08:47.504Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:08:47.504Z - debug: Inline data specified. requestId=1
+2019-08-25T04:08:47.513Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:08:47.729Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:08:47 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:08:47.732Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:08:48.423Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:08:48 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:08:48.431Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C099d9870-c6ee-11e9-b4e7-63916977ff97html.html timestamp=Sun Aug 25 2019 01:08:48 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:08:48.433Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:08:48 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:08:48.434Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:08:48 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:08:48.435Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:08:48 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:08:48.438Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:08:48.439Z - info: Rendering request 1 finished in 946 ms requestId=1
+2019-08-25T04:09:20.387Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:09:20.395Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:09:20.399Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:09:20.404Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:09:20.414Z - info: Found 30 extensions
+2019-08-25T04:09:20.439Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:09:20.445Z - debug: Discovered 30 extensions
+2019-08-25T04:09:20.448Z - info: Using extension jsrender
+2019-08-25T04:09:20.449Z - info: Using extension fop-pdf
+2019-08-25T04:09:20.507Z - info: Using extension handlebars
+2019-08-25T04:09:20.514Z - info: Using extension templates
+2019-08-25T04:09:20.521Z - info: Using extension html-to-xlsx
+2019-08-25T04:09:20.739Z - info: Using extension data
+2019-08-25T04:09:20.795Z - info: Using extension phantom-pdf
+2019-08-25T04:09:20.877Z - info: Using extension text
+2019-08-25T04:09:20.883Z - info: Using extension assets
+2019-08-25T04:09:20.913Z - info: Using extension scripts
+2019-08-25T04:09:20.961Z - info: Using extension xlsx
+2019-08-25T04:09:21.494Z - info: Creating memory store
+2019-08-25T04:09:21.515Z - info: reporter initialized
+2019-08-25T04:09:21.516Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:09:21.520Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:09:21.521Z - debug: Inline data specified. requestId=1
+2019-08-25T04:09:21.533Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:09:21.779Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:09:21 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:21.781Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:09:22.471Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:09:22 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:22.472Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C1de90f80-c6ee-11e9-ab38-699f95623653html.html timestamp=Sun Aug 25 2019 01:09:22 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:22.480Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:09:22 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:22.481Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:09:22 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:22.483Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:09:22 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:22.486Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:09:22.487Z - info: Rendering request 1 finished in 971 ms requestId=1
+2019-08-25T04:09:49.027Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:09:49.034Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:09:49.047Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:09:49.063Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:09:49.078Z - info: Found 30 extensions
+2019-08-25T04:09:49.116Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:09:49.118Z - debug: Discovered 30 extensions
+2019-08-25T04:09:49.122Z - info: Using extension jsrender
+2019-08-25T04:09:49.130Z - info: Using extension fop-pdf
+2019-08-25T04:09:49.218Z - info: Using extension handlebars
+2019-08-25T04:09:49.228Z - info: Using extension templates
+2019-08-25T04:09:49.244Z - info: Using extension html-to-xlsx
+2019-08-25T04:09:49.418Z - info: Using extension data
+2019-08-25T04:09:49.484Z - info: Using extension phantom-pdf
+2019-08-25T04:09:49.600Z - info: Using extension text
+2019-08-25T04:09:49.609Z - info: Using extension assets
+2019-08-25T04:09:49.638Z - info: Using extension scripts
+2019-08-25T04:09:49.680Z - info: Using extension xlsx
+2019-08-25T04:09:50.205Z - info: Creating memory store
+2019-08-25T04:09:50.240Z - info: reporter initialized
+2019-08-25T04:09:50.241Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:09:50.246Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:09:50.246Z - debug: Inline data specified. requestId=1
+2019-08-25T04:09:50.263Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:09:50.481Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:09:50 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:50.483Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:09:51.282Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:09:51 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:51.283Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C2f04f180-c6ee-11e9-af15-772e94b982cbhtml.html timestamp=Sun Aug 25 2019 01:09:51 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:51.290Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:09:51 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:51.294Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:09:51 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:51.295Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:09:51 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:09:51.298Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:09:51.299Z - info: Rendering request 1 finished in 1057 ms requestId=1
+2019-08-25T04:11:18.289Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:11:18.300Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:11:18.304Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:11:18.310Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:11:18.323Z - info: Found 30 extensions
+2019-08-25T04:11:18.361Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:11:18.365Z - debug: Discovered 30 extensions
+2019-08-25T04:11:18.371Z - info: Using extension jsrender
+2019-08-25T04:11:18.374Z - info: Using extension fop-pdf
+2019-08-25T04:11:18.427Z - info: Using extension handlebars
+2019-08-25T04:11:18.435Z - info: Using extension templates
+2019-08-25T04:11:18.446Z - info: Using extension html-to-xlsx
+2019-08-25T04:11:18.618Z - info: Using extension data
+2019-08-25T04:11:18.673Z - info: Using extension phantom-pdf
+2019-08-25T04:11:18.767Z - info: Using extension text
+2019-08-25T04:11:18.772Z - info: Using extension assets
+2019-08-25T04:11:18.803Z - info: Using extension scripts
+2019-08-25T04:11:18.858Z - info: Using extension xlsx
+2019-08-25T04:11:19.384Z - info: Creating memory store
+2019-08-25T04:11:19.403Z - info: reporter initialized
+2019-08-25T04:11:19.405Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:11:19.408Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:11:19.409Z - debug: Inline data specified. requestId=1
+2019-08-25T04:11:19.419Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:11:19.640Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:11:19 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:19.642Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:11:20.347Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:11:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:20.353Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C642938d0-c6ee-11e9-8252-a594e7d3a3eahtml.html timestamp=Sun Aug 25 2019 01:11:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:20.354Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:11:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:20.356Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:11:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:20.357Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:11:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:20.360Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:11:20.360Z - info: Rendering request 1 finished in 956 ms requestId=1
+2019-08-25T04:11:52.011Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:11:52.021Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:11:52.025Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:11:52.041Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:11:52.056Z - info: Found 30 extensions
+2019-08-25T04:11:52.113Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:11:52.123Z - debug: Discovered 30 extensions
+2019-08-25T04:11:52.139Z - info: Using extension jsrender
+2019-08-25T04:11:52.142Z - info: Using extension fop-pdf
+2019-08-25T04:11:52.223Z - info: Using extension handlebars
+2019-08-25T04:11:52.234Z - info: Using extension templates
+2019-08-25T04:11:52.243Z - info: Using extension html-to-xlsx
+2019-08-25T04:11:52.455Z - info: Using extension data
+2019-08-25T04:11:52.520Z - info: Using extension phantom-pdf
+2019-08-25T04:11:52.607Z - info: Using extension text
+2019-08-25T04:11:52.613Z - info: Using extension assets
+2019-08-25T04:11:52.643Z - info: Using extension scripts
+2019-08-25T04:11:52.697Z - info: Using extension xlsx
+2019-08-25T04:11:53.224Z - info: Creating memory store
+2019-08-25T04:11:53.242Z - info: reporter initialized
+2019-08-25T04:11:53.244Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:11:53.249Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:11:53.250Z - debug: Inline data specified. requestId=1
+2019-08-25T04:11:53.255Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:11:53.485Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:11:53 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:53.492Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:11:54.201Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:11:54 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:54.202Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C7856a090-c6ee-11e9-b8cb-8d76748dd25dhtml.html timestamp=Sun Aug 25 2019 01:11:54 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:54.207Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:11:54 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:54.208Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:11:54 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:54.210Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:11:54 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:11:54.217Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:11:54.219Z - info: Rendering request 1 finished in 976 ms requestId=1
+2019-08-25T04:11:56.756Z - info: Starting rendering request 2 (user: null) requestId=2
+2019-08-25T04:11:56.758Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=2
+2019-08-25T04:11:56.760Z - debug: Inline data specified. requestId=2
+2019-08-25T04:11:56.772Z - debug: Rendering engine handlebars requestId=2
+2019-08-25T04:11:57.101Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:11:57 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:11:57.102Z - debug: Executing recipe phantom-pdf requestId=2
+2019-08-25T04:11:57.833Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:11:57 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:11:57.834Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C7a7cdbf0-c6ee-11e9-b8cb-8d76748dd25dhtml.html timestamp=Sun Aug 25 2019 01:11:57 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:11:57.835Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:11:57 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:11:57.840Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:11:57 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:11:57.841Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:11:57 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:11:57.843Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=2
+2019-08-25T04:11:57.850Z - info: Rendering request 2 finished in 1099 ms requestId=2
+2019-08-25T04:27:30.171Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:27:30.172Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:27:30.184Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:27:30.254Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:27:30.293Z - info: Found 30 extensions
+2019-08-25T04:27:30.336Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:27:30.339Z - debug: Discovered 30 extensions
+2019-08-25T04:27:30.340Z - info: Using extension jsrender
+2019-08-25T04:27:30.354Z - info: Using extension fop-pdf
+2019-08-25T04:27:30.438Z - info: Using extension handlebars
+2019-08-25T04:27:30.452Z - info: Using extension templates
+2019-08-25T04:27:30.469Z - info: Using extension html-to-xlsx
+2019-08-25T04:27:30.820Z - info: Using extension data
+2019-08-25T04:27:30.931Z - info: Using extension phantom-pdf
+2019-08-25T04:27:31.071Z - info: Using extension text
+2019-08-25T04:27:31.073Z - info: Using extension assets
+2019-08-25T04:27:31.127Z - info: Using extension scripts
+2019-08-25T04:27:31.219Z - info: Using extension xlsx
+2019-08-25T04:27:32.029Z - info: Creating memory store
+2019-08-25T04:27:32.051Z - info: reporter initialized
+2019-08-25T04:27:32.054Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:27:32.055Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:27:32.059Z - debug: Inline data specified. requestId=1
+2019-08-25T04:27:32.072Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:27:32.385Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:27:32 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:27:32.387Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:27:33.473Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:27:33 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:27:33.491Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Ca7f6f0a0-c6f0-11e9-ab6b-0369147a44d4html.html timestamp=Sun Aug 25 2019 01:27:33 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:27:33.506Z - debug: Request file:///qrcode.jpg timestamp=Sun Aug 25 2019 01:27:33 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:27:33.507Z - warn: Unable to load resource (#2URL:) timestamp=Sun Aug 25 2019 01:27:33 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:27:33.522Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Sun Aug 25 2019 01:27:33 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:27:33.546Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:27:33.548Z - info: Rendering request 1 finished in 1495 ms requestId=1
+2019-08-25T04:39:18.074Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:39:18.075Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:39:18.081Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:39:18.094Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:39:18.105Z - info: Found 30 extensions
+2019-08-25T04:39:18.143Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:39:18.158Z - debug: Discovered 30 extensions
+2019-08-25T04:39:18.161Z - info: Using extension jsrender
+2019-08-25T04:39:18.164Z - info: Using extension fop-pdf
+2019-08-25T04:39:18.245Z - info: Using extension handlebars
+2019-08-25T04:39:18.259Z - info: Using extension templates
+2019-08-25T04:39:18.271Z - info: Using extension html-to-xlsx
+2019-08-25T04:39:18.477Z - info: Using extension data
+2019-08-25T04:39:18.555Z - info: Using extension phantom-pdf
+2019-08-25T04:39:18.663Z - info: Using extension text
+2019-08-25T04:39:18.665Z - info: Using extension assets
+2019-08-25T04:39:18.701Z - info: Using extension scripts
+2019-08-25T04:39:18.765Z - info: Using extension xlsx
+2019-08-25T04:39:19.374Z - info: Creating memory store
+2019-08-25T04:39:19.413Z - info: reporter initialized
+2019-08-25T04:39:19.415Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:39:19.416Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:39:19.417Z - debug: Inline data specified. requestId=1
+2019-08-25T04:39:19.435Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:39:19.706Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:39:19 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:39:19.716Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:39:20.638Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:39:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:39:20.639Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C4d907990-c6f2-11e9-8427-49ce3ec4425ahtml.html timestamp=Sun Aug 25 2019 01:39:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:39:20.651Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 01:39:20 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:39:20.666Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:39:20.669Z - info: Rendering request 1 finished in 1254 ms requestId=1
+2019-08-25T04:39:27.513Z - info: Starting rendering request 2 (user: null) requestId=2
+2019-08-25T04:39:27.534Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=2
+2019-08-25T04:39:27.535Z - debug: Inline data specified. requestId=2
+2019-08-25T04:39:27.543Z - debug: Rendering engine handlebars requestId=2
+2019-08-25T04:39:27.977Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:39:27 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:39:27.979Z - debug: Executing recipe phantom-pdf requestId=2
+2019-08-25T04:39:28.757Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:39:28 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:39:28.758Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C527cb2c0-c6f2-11e9-8427-49ce3ec4425ahtml.html timestamp=Sun Aug 25 2019 01:39:28 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:39:28.768Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 01:39:28 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:39:28.771Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=2
+2019-08-25T04:39:28.772Z - info: Rendering request 2 finished in 1263 ms requestId=2
+2019-08-25T04:41:05.284Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:41:05.285Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:41:05.288Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:41:05.299Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:41:05.312Z - info: Found 30 extensions
+2019-08-25T04:41:05.346Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:41:05.357Z - debug: Discovered 30 extensions
+2019-08-25T04:41:05.359Z - info: Using extension jsrender
+2019-08-25T04:41:05.361Z - info: Using extension fop-pdf
+2019-08-25T04:41:05.447Z - info: Using extension handlebars
+2019-08-25T04:41:05.460Z - info: Using extension templates
+2019-08-25T04:41:05.475Z - info: Using extension html-to-xlsx
+2019-08-25T04:41:05.664Z - info: Using extension data
+2019-08-25T04:41:05.744Z - info: Using extension phantom-pdf
+2019-08-25T04:41:05.860Z - info: Using extension text
+2019-08-25T04:41:05.862Z - info: Using extension assets
+2019-08-25T04:41:05.905Z - info: Using extension scripts
+2019-08-25T04:41:05.964Z - info: Using extension xlsx
+2019-08-25T04:41:06.592Z - info: Creating memory store
+2019-08-25T04:41:06.639Z - info: reporter initialized
+2019-08-25T04:41:06.641Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:41:06.642Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:41:06.643Z - debug: Inline data specified. requestId=1
+2019-08-25T04:41:06.674Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:41:06.984Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:41:06 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:41:06.996Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:41:07.739Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:41:07 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:41:07.739Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C8d8241a0-c6f2-11e9-ad9b-8d592c787347html.html timestamp=Sun Aug 25 2019 01:41:07 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:41:07.751Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 01:41:07 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:41:07.755Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:41:07.757Z - info: Rendering request 1 finished in 1116 ms requestId=1
+2019-08-25T04:48:12.834Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:48:12.835Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:48:12.840Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:48:12.850Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:48:12.860Z - info: Found 30 extensions
+2019-08-25T04:48:12.919Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:48:12.927Z - debug: Discovered 30 extensions
+2019-08-25T04:48:12.930Z - info: Using extension jsrender
+2019-08-25T04:48:12.945Z - info: Using extension fop-pdf
+2019-08-25T04:48:13.058Z - info: Using extension handlebars
+2019-08-25T04:48:13.072Z - info: Using extension templates
+2019-08-25T04:48:13.097Z - info: Using extension html-to-xlsx
+2019-08-25T04:48:13.335Z - info: Using extension data
+2019-08-25T04:48:13.419Z - info: Using extension phantom-pdf
+2019-08-25T04:48:13.540Z - info: Using extension text
+2019-08-25T04:48:13.541Z - info: Using extension assets
+2019-08-25T04:48:13.584Z - info: Using extension scripts
+2019-08-25T04:48:13.660Z - info: Using extension xlsx
+2019-08-25T04:48:14.283Z - info: Creating memory store
+2019-08-25T04:48:14.337Z - info: reporter initialized
+2019-08-25T04:48:14.339Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:48:14.346Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:48:14.348Z - debug: Inline data specified. requestId=1
+2019-08-25T04:48:14.366Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:48:14.730Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:48:14 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:48:14.743Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:48:15.946Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:48:15 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:48:15.947Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C8c771dc0-c6f3-11e9-ace0-99f92a6ff752html.html timestamp=Sun Aug 25 2019 01:48:15 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:48:15.963Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 01:48:15 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:48:15.981Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:48:15.986Z - info: Rendering request 1 finished in 1646 ms requestId=1
+2019-08-25T04:48:43.593Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:48:43.594Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:48:43.600Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:48:43.609Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:48:43.627Z - info: Found 30 extensions
+2019-08-25T04:48:43.670Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:48:43.678Z - debug: Discovered 30 extensions
+2019-08-25T04:48:43.691Z - info: Using extension jsrender
+2019-08-25T04:48:43.694Z - info: Using extension fop-pdf
+2019-08-25T04:48:43.780Z - info: Using extension handlebars
+2019-08-25T04:48:43.793Z - info: Using extension templates
+2019-08-25T04:48:43.808Z - info: Using extension html-to-xlsx
+2019-08-25T04:48:43.993Z - info: Using extension data
+2019-08-25T04:48:44.065Z - info: Using extension phantom-pdf
+2019-08-25T04:48:44.200Z - info: Using extension text
+2019-08-25T04:48:44.203Z - info: Using extension assets
+2019-08-25T04:48:44.250Z - info: Using extension scripts
+2019-08-25T04:48:44.323Z - info: Using extension xlsx
+2019-08-25T04:48:45.098Z - info: Creating memory store
+2019-08-25T04:48:45.158Z - info: reporter initialized
+2019-08-25T04:48:45.177Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:48:45.179Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:48:45.192Z - debug: Inline data specified. requestId=1
+2019-08-25T04:48:45.209Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:48:45.594Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:48:45 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:48:45.595Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:48:46.456Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:48:46 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:48:46.457Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C9edb1020-c6f3-11e9-8389-ed7bf4dc335ahtml.html timestamp=Sun Aug 25 2019 01:48:46 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:48:46.473Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 01:48:46 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:48:46.478Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:48:46.480Z - info: Rendering request 1 finished in 1315 ms requestId=1
+2019-08-25T04:49:09.896Z - info: Starting rendering request 2 (user: null) requestId=2
+2019-08-25T04:49:09.899Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=2
+2019-08-25T04:49:09.918Z - debug: Inline data specified. requestId=2
+2019-08-25T04:49:09.921Z - debug: Rendering engine handlebars requestId=2
+2019-08-25T04:49:10.221Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:49:10 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:49:10.223Z - debug: Executing recipe phantom-pdf requestId=2
+2019-08-25T04:49:10.998Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:49:10 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:49:10.999Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Cad881500-c6f3-11e9-8389-ed7bf4dc335ahtml.html timestamp=Sun Aug 25 2019 01:49:10 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:49:11.011Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 01:49:10 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T04:49:11.015Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=2
+2019-08-25T04:49:11.016Z - info: Rendering request 2 finished in 1120 ms requestId=2
+2019-08-25T04:49:18.773Z - info: Starting rendering request 3 (user: null) requestId=3
+2019-08-25T04:49:18.774Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=3
+2019-08-25T04:49:18.792Z - debug: Inline data specified. requestId=3
+2019-08-25T04:49:18.818Z - debug: Rendering engine handlebars requestId=3
+2019-08-25T04:49:19.062Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:49:19 GMT-0300 (GMT-03:00), requestId=3
+2019-08-25T04:49:19.063Z - debug: Executing recipe phantom-pdf requestId=3
+2019-08-25T04:49:19.767Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:49:19 GMT-0300 (GMT-03:00), requestId=3
+2019-08-25T04:49:19.768Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Cb2ccce70-c6f3-11e9-8389-ed7bf4dc335ahtml.html timestamp=Sun Aug 25 2019 01:49:19 GMT-0300 (GMT-03:00), requestId=3
+2019-08-25T04:49:19.782Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 01:49:19 GMT-0300 (GMT-03:00), requestId=3
+2019-08-25T04:49:19.784Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=3
+2019-08-25T04:49:19.785Z - info: Rendering request 3 finished in 1013 ms requestId=3
+2019-08-25T04:53:02.747Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:53:02.748Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:53:02.751Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:53:02.759Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:53:02.772Z - info: Found 30 extensions
+2019-08-25T04:53:02.798Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:53:02.812Z - debug: Discovered 30 extensions
+2019-08-25T04:53:02.814Z - info: Using extension jsrender
+2019-08-25T04:53:02.816Z - info: Using extension fop-pdf
+2019-08-25T04:53:02.872Z - info: Using extension handlebars
+2019-08-25T04:53:02.875Z - info: Using extension templates
+2019-08-25T04:53:02.888Z - info: Using extension html-to-xlsx
+2019-08-25T04:53:03.053Z - info: Using extension data
+2019-08-25T04:53:03.158Z - info: Using extension phantom-pdf
+2019-08-25T04:53:03.270Z - info: Using extension text
+2019-08-25T04:53:03.281Z - info: Using extension assets
+2019-08-25T04:53:03.314Z - info: Using extension scripts
+2019-08-25T04:53:03.369Z - info: Using extension xlsx
+2019-08-25T04:53:03.863Z - info: Creating memory store
+2019-08-25T04:53:03.897Z - info: reporter initialized
+2019-08-25T04:53:03.898Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:53:03.903Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:53:03.904Z - debug: Inline data specified. requestId=1
+2019-08-25T04:53:03.910Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:53:04.181Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:53:04 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:53:04.183Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:53:05.101Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:53:04 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:53:05.102Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C38fbd9a0-c6f4-11e9-8e52-49f7a18de186html.html timestamp=Sun Aug 25 2019 01:53:04 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:53:05.111Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 01:53:04 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:53:05.115Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:53:05.116Z - info: Rendering request 1 finished in 1218 ms requestId=1
+2019-08-25T04:53:48.011Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T04:53:48.012Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T04:53:48.015Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T04:53:48.023Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T04:53:48.033Z - info: Found 30 extensions
+2019-08-25T04:53:48.059Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T04:53:48.061Z - debug: Discovered 30 extensions
+2019-08-25T04:53:48.066Z - info: Using extension jsrender
+2019-08-25T04:53:48.070Z - info: Using extension fop-pdf
+2019-08-25T04:53:48.131Z - info: Using extension handlebars
+2019-08-25T04:53:48.134Z - info: Using extension templates
+2019-08-25T04:53:48.149Z - info: Using extension html-to-xlsx
+2019-08-25T04:53:48.292Z - info: Using extension data
+2019-08-25T04:53:48.348Z - info: Using extension phantom-pdf
+2019-08-25T04:53:48.430Z - info: Using extension text
+2019-08-25T04:53:48.432Z - info: Using extension assets
+2019-08-25T04:53:48.465Z - info: Using extension scripts
+2019-08-25T04:53:48.516Z - info: Using extension xlsx
+2019-08-25T04:53:49.089Z - info: Creating memory store
+2019-08-25T04:53:49.122Z - info: reporter initialized
+2019-08-25T04:53:49.124Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T04:53:49.131Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T04:53:49.131Z - debug: Inline data specified. requestId=1
+2019-08-25T04:53:49.150Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T04:53:49.380Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 01:53:49 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:53:49.389Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T04:53:50.178Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 01:53:50 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:53:50.178Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C53ee3230-c6f4-11e9-a2a5-3d14b8bc8cbahtml.html timestamp=Sun Aug 25 2019 01:53:50 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:53:50.205Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 01:53:50 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T04:53:50.218Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T04:53:50.220Z - info: Rendering request 1 finished in 1097 ms requestId=1
+2019-08-25T05:00:22.284Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T05:00:22.285Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T05:00:22.289Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T05:00:22.308Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T05:00:22.321Z - info: Found 30 extensions
+2019-08-25T05:00:22.363Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T05:00:22.366Z - debug: Discovered 30 extensions
+2019-08-25T05:00:22.368Z - info: Using extension jsrender
+2019-08-25T05:00:22.370Z - info: Using extension fop-pdf
+2019-08-25T05:00:22.435Z - info: Using extension handlebars
+2019-08-25T05:00:22.447Z - info: Using extension templates
+2019-08-25T05:00:22.455Z - info: Using extension html-to-xlsx
+2019-08-25T05:00:22.601Z - info: Using extension data
+2019-08-25T05:00:22.654Z - info: Using extension phantom-pdf
+2019-08-25T05:00:22.736Z - info: Using extension text
+2019-08-25T05:00:22.737Z - info: Using extension assets
+2019-08-25T05:00:22.769Z - info: Using extension scripts
+2019-08-25T05:00:22.821Z - info: Using extension xlsx
+2019-08-25T05:00:23.280Z - info: Creating memory store
+2019-08-25T05:00:23.296Z - info: reporter initialized
+2019-08-25T05:00:23.299Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T05:00:23.300Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T05:00:23.301Z - debug: Inline data specified. requestId=1
+2019-08-25T05:00:23.305Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T05:00:23.539Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:00:23 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:00:23.541Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T05:00:24.326Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:00:24 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:00:24.328Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C3edc8f80-c6f5-11e9-bc3a-91546a005b46html.html timestamp=Sun Aug 25 2019 02:00:24 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:00:24.339Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:00:24 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:00:24.343Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T05:00:24.344Z - info: Rendering request 1 finished in 1045 ms requestId=1
+2019-08-25T05:01:23.017Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T05:01:23.019Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T05:01:23.022Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T05:01:23.032Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T05:01:23.038Z - info: Found 30 extensions
+2019-08-25T05:01:23.069Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T05:01:23.071Z - debug: Discovered 30 extensions
+2019-08-25T05:01:23.072Z - info: Using extension jsrender
+2019-08-25T05:01:23.083Z - info: Using extension fop-pdf
+2019-08-25T05:01:23.163Z - info: Using extension handlebars
+2019-08-25T05:01:23.180Z - info: Using extension templates
+2019-08-25T05:01:23.203Z - info: Using extension html-to-xlsx
+2019-08-25T05:01:23.376Z - info: Using extension data
+2019-08-25T05:01:23.429Z - info: Using extension phantom-pdf
+2019-08-25T05:01:23.512Z - info: Using extension text
+2019-08-25T05:01:23.514Z - info: Using extension assets
+2019-08-25T05:01:23.548Z - info: Using extension scripts
+2019-08-25T05:01:23.598Z - info: Using extension xlsx
+2019-08-25T05:01:24.086Z - info: Creating memory store
+2019-08-25T05:01:24.128Z - info: reporter initialized
+2019-08-25T05:01:24.130Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T05:01:24.130Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T05:01:24.131Z - debug: Inline data specified. requestId=1
+2019-08-25T05:01:24.135Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T05:01:24.388Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:01:24 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:01:24.389Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T05:01:25.079Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:01:24 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:01:25.080Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C63216190-c6f5-11e9-9893-29d699d5c2a3html.html timestamp=Sun Aug 25 2019 02:01:24 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:01:25.089Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:01:24 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:01:25.103Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T05:01:25.104Z - info: Rendering request 1 finished in 974 ms requestId=1
+2019-08-25T05:02:10.212Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T05:02:10.213Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T05:02:10.219Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T05:02:10.238Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T05:02:10.308Z - info: Found 30 extensions
+2019-08-25T05:02:10.340Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T05:02:10.346Z - debug: Discovered 30 extensions
+2019-08-25T05:02:10.348Z - info: Using extension jsrender
+2019-08-25T05:02:10.350Z - info: Using extension fop-pdf
+2019-08-25T05:02:10.411Z - info: Using extension handlebars
+2019-08-25T05:02:10.414Z - info: Using extension templates
+2019-08-25T05:02:10.419Z - info: Using extension html-to-xlsx
+2019-08-25T05:02:10.632Z - info: Using extension data
+2019-08-25T05:02:10.687Z - info: Using extension phantom-pdf
+2019-08-25T05:02:10.765Z - info: Using extension text
+2019-08-25T05:02:10.767Z - info: Using extension assets
+2019-08-25T05:02:10.797Z - info: Using extension scripts
+2019-08-25T05:02:10.846Z - info: Using extension xlsx
+2019-08-25T05:02:11.283Z - info: Creating memory store
+2019-08-25T05:02:11.316Z - info: reporter initialized
+2019-08-25T05:02:11.317Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T05:02:11.318Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T05:02:11.319Z - debug: Inline data specified. requestId=1
+2019-08-25T05:02:11.332Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T05:02:11.628Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:02:11 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:02:11.630Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T05:02:12.326Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:02:12 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:02:12.327Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C7f49a210-c6f5-11e9-bfe2-d59703604a12html.html timestamp=Sun Aug 25 2019 02:02:12 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:02:12.336Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:02:12 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:02:12.343Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T05:02:12.345Z - info: Rendering request 1 finished in 1028 ms requestId=1
+2019-08-25T05:03:13.763Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T05:03:13.764Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T05:03:13.768Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T05:03:13.775Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T05:03:13.781Z - info: Found 30 extensions
+2019-08-25T05:03:13.809Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T05:03:13.811Z - debug: Discovered 30 extensions
+2019-08-25T05:03:13.812Z - info: Using extension jsrender
+2019-08-25T05:03:13.813Z - info: Using extension fop-pdf
+2019-08-25T05:03:13.876Z - info: Using extension handlebars
+2019-08-25T05:03:13.878Z - info: Using extension templates
+2019-08-25T05:03:13.892Z - info: Using extension html-to-xlsx
+2019-08-25T05:03:14.052Z - info: Using extension data
+2019-08-25T05:03:14.106Z - info: Using extension phantom-pdf
+2019-08-25T05:03:14.181Z - info: Using extension text
+2019-08-25T05:03:14.189Z - info: Using extension assets
+2019-08-25T05:03:14.220Z - info: Using extension scripts
+2019-08-25T05:03:14.263Z - info: Using extension xlsx
+2019-08-25T05:03:14.728Z - info: Creating memory store
+2019-08-25T05:03:14.766Z - info: reporter initialized
+2019-08-25T05:03:14.767Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T05:03:14.768Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T05:03:14.768Z - debug: Inline data specified. requestId=1
+2019-08-25T05:03:14.779Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T05:03:14.988Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:03:14 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:03:14.990Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T05:03:15.644Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:03:15 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:03:15.645Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Ca50de830-c6f5-11e9-8327-e1f2f9a16ac4html.html timestamp=Sun Aug 25 2019 02:03:15 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:03:15.655Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:03:15 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:03:15.659Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T05:03:15.660Z - info: Rendering request 1 finished in 893 ms requestId=1
+2019-08-25T05:05:25.571Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T05:05:25.572Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T05:05:25.575Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T05:05:25.582Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T05:05:25.591Z - info: Found 30 extensions
+2019-08-25T05:05:25.617Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T05:05:25.619Z - debug: Discovered 30 extensions
+2019-08-25T05:05:25.620Z - info: Using extension jsrender
+2019-08-25T05:05:25.621Z - info: Using extension fop-pdf
+2019-08-25T05:05:25.679Z - info: Using extension handlebars
+2019-08-25T05:05:25.681Z - info: Using extension templates
+2019-08-25T05:05:25.687Z - info: Using extension html-to-xlsx
+2019-08-25T05:05:25.833Z - info: Using extension data
+2019-08-25T05:05:25.888Z - info: Using extension phantom-pdf
+2019-08-25T05:05:25.964Z - info: Using extension text
+2019-08-25T05:05:25.966Z - info: Using extension assets
+2019-08-25T05:05:25.996Z - info: Using extension scripts
+2019-08-25T05:05:26.042Z - info: Using extension xlsx
+2019-08-25T05:05:26.506Z - info: Creating memory store
+2019-08-25T05:05:26.538Z - info: reporter initialized
+2019-08-25T05:05:26.540Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T05:05:26.548Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T05:05:26.548Z - debug: Inline data specified. requestId=1
+2019-08-25T05:05:26.565Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T05:05:26.791Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:05:26 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:05:26.793Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T05:05:27.483Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:05:27 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:05:27.484Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Cf39d4bd0-c6f5-11e9-9c58-77997c357cfchtml.html timestamp=Sun Aug 25 2019 02:05:27 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:05:27.493Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:05:27 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:05:27.497Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T05:05:27.498Z - info: Rendering request 1 finished in 959 ms requestId=1
+2019-08-25T05:05:41.133Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T05:05:41.133Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T05:05:41.136Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T05:05:41.149Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T05:05:41.163Z - info: Found 30 extensions
+2019-08-25T05:05:41.201Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T05:05:41.203Z - debug: Discovered 30 extensions
+2019-08-25T05:05:41.213Z - info: Using extension jsrender
+2019-08-25T05:05:41.215Z - info: Using extension fop-pdf
+2019-08-25T05:05:41.334Z - info: Using extension handlebars
+2019-08-25T05:05:41.363Z - info: Using extension templates
+2019-08-25T05:05:41.395Z - info: Using extension html-to-xlsx
+2019-08-25T05:05:41.678Z - info: Using extension data
+2019-08-25T05:05:41.758Z - info: Using extension phantom-pdf
+2019-08-25T05:05:41.859Z - info: Using extension text
+2019-08-25T05:05:41.861Z - info: Using extension assets
+2019-08-25T05:05:41.898Z - info: Using extension scripts
+2019-08-25T05:05:41.948Z - info: Using extension xlsx
+2019-08-25T05:05:42.446Z - info: Creating memory store
+2019-08-25T05:05:42.487Z - info: reporter initialized
+2019-08-25T05:05:42.489Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T05:05:42.491Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T05:05:42.491Z - debug: Inline data specified. requestId=1
+2019-08-25T05:05:42.501Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T05:05:42.779Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:05:42 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:05:42.781Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T05:05:43.496Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:05:43 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:05:43.497Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Cfd24b800-c6f5-11e9-b60e-3bdc3f0b7246html.html timestamp=Sun Aug 25 2019 02:05:43 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:05:43.510Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:05:43 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:05:43.513Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T05:05:43.514Z - info: Rendering request 1 finished in 1026 ms requestId=1
+2019-08-25T05:06:19.190Z - info: Starting rendering request 2 (user: null) requestId=2
+2019-08-25T05:06:19.190Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=2
+2019-08-25T05:06:19.191Z - debug: Inline data specified. requestId=2
+2019-08-25T05:06:19.200Z - debug: Rendering engine handlebars requestId=2
+2019-08-25T05:06:19.499Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:06:19 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:06:19.502Z - debug: Executing recipe phantom-pdf requestId=2
+2019-08-25T05:06:20.144Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:06:20 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:06:20.145Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C130797f0-c6f6-11e9-b60e-3bdc3f0b7246html.html timestamp=Sun Aug 25 2019 02:06:20 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:06:20.158Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:06:20 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:06:20.160Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=2
+2019-08-25T05:06:20.161Z - info: Rendering request 2 finished in 971 ms requestId=2
+2019-08-25T05:06:29.432Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T05:06:29.433Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T05:06:29.441Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T05:06:29.455Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T05:06:29.478Z - info: Found 30 extensions
+2019-08-25T05:06:29.532Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T05:06:29.546Z - debug: Discovered 30 extensions
+2019-08-25T05:06:29.547Z - info: Using extension jsrender
+2019-08-25T05:06:29.549Z - info: Using extension fop-pdf
+2019-08-25T05:06:29.621Z - info: Using extension handlebars
+2019-08-25T05:06:29.624Z - info: Using extension templates
+2019-08-25T05:06:29.634Z - info: Using extension html-to-xlsx
+2019-08-25T05:06:29.783Z - info: Using extension data
+2019-08-25T05:06:29.833Z - info: Using extension phantom-pdf
+2019-08-25T05:06:29.912Z - info: Using extension text
+2019-08-25T05:06:29.914Z - info: Using extension assets
+2019-08-25T05:06:29.944Z - info: Using extension scripts
+2019-08-25T05:06:29.994Z - info: Using extension xlsx
+2019-08-25T05:06:30.454Z - info: Creating memory store
+2019-08-25T05:06:30.494Z - info: reporter initialized
+2019-08-25T05:06:30.495Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T05:06:30.496Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T05:06:30.496Z - debug: Inline data specified. requestId=1
+2019-08-25T05:06:30.509Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T05:06:30.788Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:06:30 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:06:30.790Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T05:06:31.537Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:06:31 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:06:31.538Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C19c276a0-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:06:31 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:06:31.547Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:06:31 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:06:31.561Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T05:06:31.564Z - info: Rendering request 1 finished in 1068 ms requestId=1
+2019-08-25T05:06:39.310Z - info: Starting rendering request 2 (user: null) requestId=2
+2019-08-25T05:06:39.311Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=2
+2019-08-25T05:06:39.324Z - debug: Inline data specified. requestId=2
+2019-08-25T05:06:39.326Z - debug: Rendering engine handlebars requestId=2
+2019-08-25T05:06:39.618Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:06:39 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:06:39.620Z - debug: Executing recipe phantom-pdf requestId=2
+2019-08-25T05:06:40.262Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:06:40 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:06:40.262Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C1f055b50-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:06:40 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:06:40.275Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:06:40 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:06:40.276Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=2
+2019-08-25T05:06:40.277Z - info: Rendering request 2 finished in 968 ms requestId=2
+2019-08-25T05:06:56.310Z - info: Starting rendering request 3 (user: null) requestId=3
+2019-08-25T05:06:56.312Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=3
+2019-08-25T05:06:56.357Z - debug: Inline data specified. requestId=3
+2019-08-25T05:06:56.360Z - debug: Rendering engine handlebars requestId=3
+2019-08-25T05:06:56.638Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:06:56 GMT-0300 (GMT-03:00), requestId=3
+2019-08-25T05:06:56.639Z - debug: Executing recipe phantom-pdf requestId=3
+2019-08-25T05:06:57.255Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:06:57 GMT-0300 (GMT-03:00), requestId=3
+2019-08-25T05:06:57.256Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C292a4000-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:06:57 GMT-0300 (GMT-03:00), requestId=3
+2019-08-25T05:06:57.268Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:06:57 GMT-0300 (GMT-03:00), requestId=3
+2019-08-25T05:06:57.271Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=3
+2019-08-25T05:06:57.272Z - info: Rendering request 3 finished in 962 ms requestId=3
+2019-08-25T05:07:02.906Z - info: Starting rendering request 4 (user: null) requestId=4
+2019-08-25T05:07:02.908Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=4
+2019-08-25T05:07:02.931Z - debug: Inline data specified. requestId=4
+2019-08-25T05:07:02.950Z - debug: Rendering engine handlebars requestId=4
+2019-08-25T05:07:03.286Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:07:03 GMT-0300 (GMT-03:00), requestId=4
+2019-08-25T05:07:03.287Z - debug: Executing recipe phantom-pdf requestId=4
+2019-08-25T05:07:03.911Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:07:03 GMT-0300 (GMT-03:00), requestId=4
+2019-08-25T05:07:03.912Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C2d208070-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:07:03 GMT-0300 (GMT-03:00), requestId=4
+2019-08-25T05:07:03.923Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:07:03 GMT-0300 (GMT-03:00), requestId=4
+2019-08-25T05:07:03.924Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=4
+2019-08-25T05:07:03.925Z - info: Rendering request 4 finished in 1020 ms requestId=4
+2019-08-25T05:07:08.701Z - info: Starting rendering request 5 (user: null) requestId=5
+2019-08-25T05:07:08.702Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=5
+2019-08-25T05:07:08.713Z - debug: Inline data specified. requestId=5
+2019-08-25T05:07:08.725Z - debug: Rendering engine handlebars requestId=5
+2019-08-25T05:07:09.069Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:07:09 GMT-0300 (GMT-03:00), requestId=5
+2019-08-25T05:07:09.070Z - debug: Executing recipe phantom-pdf requestId=5
+2019-08-25T05:07:09.753Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:07:09 GMT-0300 (GMT-03:00), requestId=5
+2019-08-25T05:07:09.754Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C309311f0-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:07:09 GMT-0300 (GMT-03:00), requestId=5
+2019-08-25T05:07:09.763Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:07:09 GMT-0300 (GMT-03:00), requestId=5
+2019-08-25T05:07:09.768Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=5
+2019-08-25T05:07:09.769Z - info: Rendering request 5 finished in 1068 ms requestId=5
+2019-08-25T05:07:16.537Z - info: Starting rendering request 6 (user: null) requestId=6
+2019-08-25T05:07:16.538Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=6
+2019-08-25T05:07:16.551Z - debug: Inline data specified. requestId=6
+2019-08-25T05:07:16.554Z - debug: Rendering engine handlebars requestId=6
+2019-08-25T05:07:16.945Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:07:16 GMT-0300 (GMT-03:00), requestId=6
+2019-08-25T05:07:16.946Z - debug: Executing recipe phantom-pdf requestId=6
+2019-08-25T05:07:17.612Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:07:17 GMT-0300 (GMT-03:00), requestId=6
+2019-08-25T05:07:17.613Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C3544da30-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:07:17 GMT-0300 (GMT-03:00), requestId=6
+2019-08-25T05:07:17.625Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:07:17 GMT-0300 (GMT-03:00), requestId=6
+2019-08-25T05:07:17.626Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=6
+2019-08-25T05:07:17.627Z - info: Rendering request 6 finished in 1091 ms requestId=6
+2019-08-25T05:07:47.123Z - info: Starting rendering request 7 (user: null) requestId=7
+2019-08-25T05:07:47.124Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=7
+2019-08-25T05:07:47.124Z - debug: Inline data specified. requestId=7
+2019-08-25T05:07:47.142Z - debug: Rendering engine handlebars requestId=7
+2019-08-25T05:07:47.412Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:07:47 GMT-0300 (GMT-03:00), requestId=7
+2019-08-25T05:07:47.425Z - debug: Executing recipe phantom-pdf requestId=7
+2019-08-25T05:07:48.058Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:07:47 GMT-0300 (GMT-03:00), requestId=7
+2019-08-25T05:07:48.070Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C476f6d10-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:07:47 GMT-0300 (GMT-03:00), requestId=7
+2019-08-25T05:07:48.072Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:07:47 GMT-0300 (GMT-03:00), requestId=7
+2019-08-25T05:07:48.074Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=7
+2019-08-25T05:07:48.075Z - info: Rendering request 7 finished in 952 ms requestId=7
+2019-08-25T05:08:02.327Z - info: Starting rendering request 8 (user: null) requestId=8
+2019-08-25T05:08:02.328Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=8
+2019-08-25T05:08:02.339Z - debug: Inline data specified. requestId=8
+2019-08-25T05:08:02.341Z - debug: Rendering engine handlebars requestId=8
+2019-08-25T05:08:02.649Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:08:02 GMT-0300 (GMT-03:00), requestId=8
+2019-08-25T05:08:02.651Z - debug: Executing recipe phantom-pdf requestId=8
+2019-08-25T05:08:03.258Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:08:03 GMT-0300 (GMT-03:00), requestId=8
+2019-08-25T05:08:03.258Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C5082bab0-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:08:03 GMT-0300 (GMT-03:00), requestId=8
+2019-08-25T05:08:03.273Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:08:03 GMT-0300 (GMT-03:00), requestId=8
+2019-08-25T05:08:03.274Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=8
+2019-08-25T05:08:03.275Z - info: Rendering request 8 finished in 949 ms requestId=8
+2019-08-25T05:08:11.204Z - info: Starting rendering request 9 (user: null) requestId=9
+2019-08-25T05:08:11.206Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=9
+2019-08-25T05:08:11.207Z - debug: Inline data specified. requestId=9
+2019-08-25T05:08:11.210Z - debug: Rendering engine handlebars requestId=9
+2019-08-25T05:08:11.623Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:08:11 GMT-0300 (GMT-03:00), requestId=9
+2019-08-25T05:08:11.625Z - debug: Executing recipe phantom-pdf requestId=9
+2019-08-25T05:08:12.334Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:08:12 GMT-0300 (GMT-03:00), requestId=9
+2019-08-25T05:08:12.334Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C55dc0d90-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:08:12 GMT-0300 (GMT-03:00), requestId=9
+2019-08-25T05:08:12.346Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:08:12 GMT-0300 (GMT-03:00), requestId=9
+2019-08-25T05:08:12.348Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=9
+2019-08-25T05:08:12.349Z - info: Rendering request 9 finished in 1145 ms requestId=9
+2019-08-25T05:08:19.080Z - info: Starting rendering request 10 (user: null) requestId=10
+2019-08-25T05:08:19.080Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=10
+2019-08-25T05:08:19.081Z - debug: Inline data specified. requestId=10
+2019-08-25T05:08:19.091Z - debug: Rendering engine handlebars requestId=10
+2019-08-25T05:08:19.404Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:08:19 GMT-0300 (GMT-03:00), requestId=10
+2019-08-25T05:08:19.406Z - debug: Executing recipe phantom-pdf requestId=10
+2019-08-25T05:08:20.093Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:08:19 GMT-0300 (GMT-03:00), requestId=10
+2019-08-25T05:08:20.105Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C5a7f56e0-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:08:19 GMT-0300 (GMT-03:00), requestId=10
+2019-08-25T05:08:20.106Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:08:19 GMT-0300 (GMT-03:00), requestId=10
+2019-08-25T05:08:20.108Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=10
+2019-08-25T05:08:20.109Z - info: Rendering request 10 finished in 1029 ms requestId=10
+2019-08-25T05:08:26.795Z - info: Starting rendering request 11 (user: null) requestId=11
+2019-08-25T05:08:26.796Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=11
+2019-08-25T05:08:26.797Z - debug: Inline data specified. requestId=11
+2019-08-25T05:08:26.807Z - debug: Rendering engine handlebars requestId=11
+2019-08-25T05:08:27.069Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:08:27 GMT-0300 (GMT-03:00), requestId=11
+2019-08-25T05:08:27.071Z - debug: Executing recipe phantom-pdf requestId=11
+2019-08-25T05:08:27.744Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:08:27 GMT-0300 (GMT-03:00), requestId=11
+2019-08-25T05:08:27.745Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C5f10ecf0-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:08:27 GMT-0300 (GMT-03:00), requestId=11
+2019-08-25T05:08:27.757Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:08:27 GMT-0300 (GMT-03:00), requestId=11
+2019-08-25T05:08:27.769Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=11
+2019-08-25T05:08:27.771Z - info: Rendering request 11 finished in 976 ms requestId=11
+2019-08-25T05:08:34.914Z - info: Starting rendering request 12 (user: null) requestId=12
+2019-08-25T05:08:34.914Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=12
+2019-08-25T05:08:34.924Z - debug: Inline data specified. requestId=12
+2019-08-25T05:08:34.951Z - debug: Rendering engine handlebars requestId=12
+2019-08-25T05:08:35.274Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:08:35 GMT-0300 (GMT-03:00), requestId=12
+2019-08-25T05:08:35.276Z - debug: Executing recipe phantom-pdf requestId=12
+2019-08-25T05:08:35.872Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:08:35 GMT-0300 (GMT-03:00), requestId=12
+2019-08-25T05:08:35.873Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C63f50fd0-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:08:35 GMT-0300 (GMT-03:00), requestId=12
+2019-08-25T05:08:35.885Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:08:35 GMT-0300 (GMT-03:00), requestId=12
+2019-08-25T05:08:35.887Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=12
+2019-08-25T05:08:35.887Z - info: Rendering request 12 finished in 974 ms requestId=12
+2019-08-25T05:08:48.918Z - info: Starting rendering request 13 (user: null) requestId=13
+2019-08-25T05:08:48.919Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=13
+2019-08-25T05:08:48.933Z - debug: Inline data specified. requestId=13
+2019-08-25T05:08:48.936Z - debug: Rendering engine handlebars requestId=13
+2019-08-25T05:08:49.228Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:08:49 GMT-0300 (GMT-03:00), requestId=13
+2019-08-25T05:08:49.230Z - debug: Executing recipe phantom-pdf requestId=13
+2019-08-25T05:08:49.902Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:08:49 GMT-0300 (GMT-03:00), requestId=13
+2019-08-25T05:08:49.903Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C6c461ee0-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:08:49 GMT-0300 (GMT-03:00), requestId=13
+2019-08-25T05:08:49.916Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:08:49 GMT-0300 (GMT-03:00), requestId=13
+2019-08-25T05:08:49.918Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=13
+2019-08-25T05:08:49.919Z - info: Rendering request 13 finished in 1001 ms requestId=13
+2019-08-25T05:09:34.429Z - info: Starting rendering request 14 (user: null) requestId=14
+2019-08-25T05:09:34.430Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=14
+2019-08-25T05:09:34.443Z - debug: Inline data specified. requestId=14
+2019-08-25T05:09:34.446Z - debug: Rendering engine handlebars requestId=14
+2019-08-25T05:09:34.741Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:09:34 GMT-0300 (GMT-03:00), requestId=14
+2019-08-25T05:09:34.743Z - debug: Executing recipe phantom-pdf requestId=14
+2019-08-25T05:09:35.398Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:09:35 GMT-0300 (GMT-03:00), requestId=14
+2019-08-25T05:09:35.399Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C8766da70-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:09:35 GMT-0300 (GMT-03:00), requestId=14
+2019-08-25T05:09:35.412Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:09:35 GMT-0300 (GMT-03:00), requestId=14
+2019-08-25T05:09:35.414Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=14
+2019-08-25T05:09:35.414Z - info: Rendering request 14 finished in 986 ms requestId=14
+2019-08-25T05:10:17.027Z - info: Starting rendering request 15 (user: null) requestId=15
+2019-08-25T05:10:17.028Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=15
+2019-08-25T05:10:17.029Z - debug: Inline data specified. requestId=15
+2019-08-25T05:10:17.046Z - debug: Rendering engine handlebars requestId=15
+2019-08-25T05:10:17.409Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:10:17 GMT-0300 (GMT-03:00), requestId=15
+2019-08-25T05:10:17.410Z - debug: Executing recipe phantom-pdf requestId=15
+2019-08-25T05:10:18.013Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:10:17 GMT-0300 (GMT-03:00), requestId=15
+2019-08-25T05:10:18.014Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Ca0d57930-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:10:17 GMT-0300 (GMT-03:00), requestId=15
+2019-08-25T05:10:18.026Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:10:17 GMT-0300 (GMT-03:00), requestId=15
+2019-08-25T05:10:18.028Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=15
+2019-08-25T05:10:18.028Z - info: Rendering request 15 finished in 1001 ms requestId=15
+2019-08-25T05:11:38.089Z - info: Starting rendering request 16 (user: null) requestId=16
+2019-08-25T05:11:38.090Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=16
+2019-08-25T05:11:38.104Z - debug: Inline data specified. requestId=16
+2019-08-25T05:11:38.107Z - debug: Rendering engine handlebars requestId=16
+2019-08-25T05:11:38.338Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:11:38 GMT-0300 (GMT-03:00), requestId=16
+2019-08-25T05:11:38.341Z - debug: Executing recipe phantom-pdf requestId=16
+2019-08-25T05:11:39.101Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:11:38 GMT-0300 (GMT-03:00), requestId=16
+2019-08-25T05:11:39.102Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Cd1126950-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:11:38 GMT-0300 (GMT-03:00), requestId=16
+2019-08-25T05:11:39.121Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:11:38 GMT-0300 (GMT-03:00), requestId=16
+2019-08-25T05:11:39.123Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=16
+2019-08-25T05:11:39.124Z - info: Rendering request 16 finished in 1035 ms requestId=16
+2019-08-25T05:11:44.658Z - info: Starting rendering request 17 (user: null) requestId=17
+2019-08-25T05:11:44.659Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=17
+2019-08-25T05:11:44.660Z - debug: Inline data specified. requestId=17
+2019-08-25T05:11:44.685Z - debug: Rendering engine handlebars requestId=17
+2019-08-25T05:11:45.007Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:11:44 GMT-0300 (GMT-03:00), requestId=17
+2019-08-25T05:11:45.009Z - debug: Executing recipe phantom-pdf requestId=17
+2019-08-25T05:11:45.689Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:11:45 GMT-0300 (GMT-03:00), requestId=17
+2019-08-25T05:11:45.689Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5Cd50bde10-c6f6-11e9-b0ad-371f5ed1e974html.html timestamp=Sun Aug 25 2019 02:11:45 GMT-0300 (GMT-03:00), requestId=17
+2019-08-25T05:11:45.703Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:11:45 GMT-0300 (GMT-03:00), requestId=17
+2019-08-25T05:11:45.705Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=17
+2019-08-25T05:11:45.706Z - info: Rendering request 17 finished in 1048 ms requestId=17
+2019-08-25T05:23:28.179Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2019-08-25T05:23:28.180Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-08-25T05:23:28.182Z - info: Searching for available extensions in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\
+2019-08-25T05:23:28.189Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\
+2019-08-25T05:23:28.199Z - info: Found 30 extensions
+2019-08-25T05:23:28.228Z - debug: Writing extension locations cache to C:\Users\ThiagoMoreira\AppData\Local\Temp\jsreport\core\locations.json
+2019-08-25T05:23:28.230Z - debug: Discovered 30 extensions
+2019-08-25T05:23:28.235Z - info: Using extension jsrender
+2019-08-25T05:23:28.238Z - info: Using extension fop-pdf
+2019-08-25T05:23:28.301Z - info: Using extension handlebars
+2019-08-25T05:23:28.304Z - info: Using extension templates
+2019-08-25T05:23:28.318Z - info: Using extension html-to-xlsx
+2019-08-25T05:23:28.466Z - info: Using extension data
+2019-08-25T05:23:28.520Z - info: Using extension phantom-pdf
+2019-08-25T05:23:28.599Z - info: Using extension text
+2019-08-25T05:23:28.600Z - info: Using extension assets
+2019-08-25T05:23:28.624Z - info: Using extension scripts
+2019-08-25T05:23:28.674Z - info: Using extension xlsx
+2019-08-25T05:23:29.131Z - info: Creating memory store
+2019-08-25T05:23:29.180Z - info: reporter initialized
+2019-08-25T05:23:29.182Z - info: Starting rendering request 1 (user: null) requestId=1
+2019-08-25T05:23:29.183Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=1
+2019-08-25T05:23:29.184Z - debug: Inline data specified. requestId=1
+2019-08-25T05:23:29.202Z - debug: Rendering engine handlebars requestId=1
+2019-08-25T05:23:29.508Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:23:29 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:23:29.510Z - debug: Executing recipe phantom-pdf requestId=1
+2019-08-25T05:23:30.617Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:23:30 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:23:30.618Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C78f6a590-c6f8-11e9-954c-67cae8c2a154html.html timestamp=Sun Aug 25 2019 02:23:30 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:23:30.628Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:23:30 GMT-0300 (GMT-03:00), requestId=1
+2019-08-25T05:23:30.633Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=1
+2019-08-25T05:23:30.634Z - info: Rendering request 1 finished in 1452 ms requestId=1
+2019-08-25T05:35:21.506Z - info: Starting rendering request 2 (user: null) requestId=2
+2019-08-25T05:35:21.507Z - info: Rendering anonymous template { recipe:phantom-pdf,engine:handlebars} requestId=2
+2019-08-25T05:35:21.519Z - debug: Inline data specified. requestId=2
+2019-08-25T05:35:21.534Z - debug: Rendering engine handlebars requestId=2
+2019-08-25T05:35:21.797Z - debug: Compiled template not found in the cache, compiling timestamp=Sun Aug 25 2019 02:35:21 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:35:21.798Z - debug: Executing recipe phantom-pdf requestId=2
+2019-08-25T05:35:22.521Z - debug: Converting in dedicated phantomjs 1.9.8 timestamp=Sun Aug 25 2019 02:35:22 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:35:22.522Z - debug: Request file:///C%3A%5CUsers%5CThiagoMoreira%5CAppData%5CLocal%5CTemp%5Cjsreport%5C2184dd70-c6fa-11e9-954c-67cae8c2a154html.html timestamp=Sun Aug 25 2019 02:35:22 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:35:22.533Z - debug: Request data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAklEQVR4AewaftIAAAYiSU... timestamp=Sun Aug 25 2019 02:35:22 GMT-0300 (GMT-03:00), requestId=2
+2019-08-25T05:35:22.535Z - debug: phantom-pdf recipe finished with 1 pages generated requestId=2
+2019-08-25T05:35:22.536Z - info: Rendering request 2 finished in 1032 ms requestId=2

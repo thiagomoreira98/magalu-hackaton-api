@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "nome": "NOTEBOOK GAMER I7 (GEMCO 4279211)",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 5899.00,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 10
+    },
+    {
+        "id": 2,
+        "nome": "Vanessa Walters",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 273.2,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 7
+    },
+    {
+        "id": 3,
+        "nome": "Jocelyn Chase",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 107.6,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 35
+    },
+    {
+        "id": 4,
+        "nome": "Tara Wallace",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 353.95,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 29
+    },
+    {
+        "id": 5,
+        "nome": "Sweeney Jimenez",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 32.48,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 33
+    },
+    {
+        "id": 6,
+        "nome": "Thelma Erickson",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 381.65,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 22
+    },
+    {
+        "id": 7,
+        "nome": "Claudia Lloyd",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 110.12,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 34
+    },
+    {
+        "id": 8,
+        "nome": "Rhoda Miranda",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 10.19,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 33
+    },
+    {
+        "id": 9,
+        "nome": "Norman Baird",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 295.35,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 24
+    },
+    {
+        "id": 10,
+        "nome": "Muriel Whitfield",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 275.51,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 18
+    },
+    {
+        "id": 11,
+        "nome": "Cooke Norton",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 53.34,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 25
+    },
+    {
+        "id": 12,
+        "nome": "Juanita Haley",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 308.32,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 11
+    },
+    {
+        "id": 13,
+        "nome": "Helene Mckay",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 186.23,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 19
+    },
+    {
+        "id": 14,
+        "nome": "Caroline Harrison",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 311.84,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 1
+    },
+    {
+        "id": 15,
+        "nome": "Bruce Torres",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 112.06,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 32
+    },
+    {
+        "id": 16,
+        "nome": "Natalie Medina",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 148.07,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 20
+    },
+    {
+        "id": 17,
+        "nome": "Bean Sloan",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 322.58,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 38
+    },
+    {
+        "id": 18,
+        "nome": "Socorro Avery",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 325.6,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 32
+    },
+    {
+        "id": 19,
+        "nome": "Ericka Wagner",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 134.86,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 1
+    },
+    {
+        "id": 20,
+        "nome": "York Mullins",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
+        "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
+        "preco": 42.78,
+        "imagem": "http://localhost:3001/public/produtos/xxx.png",
+        "taxaJuros": 37
+    }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "magalu-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "web": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blowfish": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "qrcode": "^1.4.1",
+    "jsreport": "^1.10.0"
+  }
+}

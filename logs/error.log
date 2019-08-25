@@ -1,0 +1,27 @@
+2019-08-25T03:35:57.298Z - error: Error when processing render request Error during rendering report: Timeout error during executing script Error: Timeout error during executing script
+    at Timeout._onTimeout (c:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\script-manager\lib\manager-processes.js:24:8)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at unrefdHandle (timers.js:520:7)
+    at Timer.processTimers (timers.js:222:12) requestId=1
+2019-08-25T03:39:29.251Z - error: Error when processing render request Error during rendering report: Parse error on line 56:
+...    <span>{{ p.nome.toUpperCase() }}</sp
+-----------------------^
+Expecting 'ID', got 'INVALID' C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267
+            throw new Error(str);
+            ^
+
+Error: Parse error on line 56:
+...    <span>{{ p.nome.toUpperCase() }}</sp
+-----------------------^
+Expecting 'ID', got 'INVALID'
+    at Parser.parseError (C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at HandlebarsEnvironment.parse (C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:514:19)
+    at ret (C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:523:18)
+    at C:\Users\ThiagoMoreira\Workspace\Hakaton Magalu\magalu-api\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at Script.runInContext (vm.js:133:20)
+    at Script.runInNewContext (vm.js:139:17)
+    at Object.runInNewContext (vm.js:322:38) requestId=1

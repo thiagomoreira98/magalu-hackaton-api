@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <style>
+        .content {
+            width: 500px;
+            height: 275px;
+            margin: 0 auto;
+            border-style: dotted;
+        }
+
+        .nome-produto {
+            text-align: center;
+            padding-left: 70px;
+            padding-right: 70px;
+            font-size: 22px;
+            font-weight: bold;
+            padding-top: 15px;
+        }
+
+        .qr-code {
+            padding-left: 40px;
+        }
+
+        .preco-a-vista {
+            padding-left: 40px;
+            margin-top: 85px;
+            font-size: 18px;
+            font-weight: bold;
+            width: 215px;
+        }
+
+        .preco-a-prazo {
+            width: 135px;
+            font-size: 14px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: -55px;
+            margin-left: 355px;
+        }
+
+        .parcelas {
+            margin-left: 50px;
+            margin-top: -100px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .underline {
+            text-decoration-line: underline;
+        }
+
+        .precos {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .center {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="nome-produto">
+            <span>{{ nome }}</span>
+        </div>
+
+        <div class="center">
+            <div class="qr-code">
+                <img src="{{ qrCode }}" alt="qrCode" width="100" height="100"/>
+            </div>
+
+            <div class="parcelas">
+                <span>(0+15)</span>
+                <br />
+                <span class="underline">R$ {{ parcelas }} mensais</span>
+            </div>
+        </div>
+
+        <div class="precos">
+            <div class="preco-a-vista">
+                <span>R$ {{ preco }} à vista</span>
+                <br />
+                <span>Plano: </span>
+                <span class="underline">Sem entrada no Cartão Luiza</span>
+            </div>
+
+            <div class="preco-a-prazo">
+                <span>R$ {{ precoParcelado }} a prazo</span>
+                <br />
+                <span>Taxa: 1.20 % A.M</span>
+                <span>15.62 % CET</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
