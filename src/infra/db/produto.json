@@ -65,7 +65,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 110.12,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/geladeira.png",
         "taxaJuros": 34
     },
     {
@@ -74,7 +74,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 10.19,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/impressora.png",
         "taxaJuros": 33
     },
     {
@@ -83,7 +83,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 295.35,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/lavadora.png",
         "taxaJuros": 24
     },
     {
@@ -92,7 +92,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 275.51,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/faqueiro.png",
         "taxaJuros": 18
     },
     {
@@ -101,7 +101,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 53.34,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/fogao.png",
         "taxaJuros": 25
     },
     {
@@ -110,7 +110,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 308.32,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/celulars.png",
         "taxaJuros": 11
     },
     {
@@ -119,7 +119,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 186.23,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/guardaroupa.png",
         "taxaJuros": 19
     },
     {
@@ -128,7 +128,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 311.84,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/topgrill.png",
         "taxaJuros": 1
     },
     {
@@ -137,7 +137,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 112.06,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/sofa.png",
         "taxaJuros": 32
     },
     {
@@ -146,7 +146,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 148.07,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/impresso.png",
         "taxaJuros": 20
     },
     {
@@ -155,7 +155,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 322.58,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/sofas.png",
         "taxaJuros": 38
     },
     {
@@ -164,7 +164,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 325.6,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/grill.png",
         "taxaJuros": 32
     },
     {
@@ -173,7 +173,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 134.86,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/sanduicheira.png",
         "taxaJuros": 1
     },
     {
@@ -182,7 +182,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 42.78,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/xxx.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/gardaroupa.png",
         "taxaJuros": 37
     }
 ]
