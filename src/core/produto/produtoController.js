@@ -10,7 +10,7 @@ module.exports = {
 }
 
 function listar(req, res) {
-    let produtos = repository.listar(req.query.nome);
+    let produtos = repository.listar(req.query);
     produtos = service.calcPrecoArray(produtos);
     res.json({ produtos });
 

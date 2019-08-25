@@ -6,12 +6,19 @@ module.exports = {
     alterar
 }
 
-function listar(nome) {
+function listar(query) {
     // removendo o cache do require
     delete require.cache[require.resolve('../../infra/db/produto.json')];
 
     const produtos = require('../../infra/db/produto.json');
-    return produtos.filter(p => p.nome.includes(nome || ''));
+
+    if(query.nome)
+        return produtos.filter(p => p.nome.includes(query.nome));
+
+    if(query.idCategoria)
+        return produtos.filter(p => p.idCategoria = query.idCategoria);
+
+    return produtos;
 }
 
 function buscarPorId(id) {
