@@ -16,7 +16,7 @@ function listar(query) {
         return produtos.filter(p => p.nome.includes(query.nome));
 
     if(query.idCategoria)
-        return produtos.filter(p => p.idCategoria = query.idCategoria);
+        return produtos.filter(p => p.idCategoria == query.idCategoria);
 
     return produtos;
 }

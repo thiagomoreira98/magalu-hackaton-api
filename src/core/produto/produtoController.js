@@ -13,9 +13,8 @@ function listar(req, res) {
     let produtos = repository.listar(req.query);
     produtos = service.calcPrecoArray(produtos);
     res.json({ produtos });
-
-    const notificacao = require('../notificacao/notificacaoService');
-    notificacao.enviar();
+    // const notificacao = require('../notificacao/notificacaoService');
+    // notificacao.enviar();
 }
 
 function buscarPorQrCode(req, res) {
