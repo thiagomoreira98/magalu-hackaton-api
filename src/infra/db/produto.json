@@ -61,6 +61,7 @@
     },
     {
         "id": 7,
+        "idCategoria": 2,
         "nome": "Claudia Lloyd",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -70,6 +71,7 @@
     },
     {
         "id": 8,
+        "idCategoria": 3,
         "nome": "Rhoda Miranda",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -79,6 +81,7 @@
     },
     {
         "id": 9,
+        "idCategoria": 3,
         "nome": "Norman Baird",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -88,6 +91,7 @@
     },
     {
         "id": 10,
+        "idCategoria": 4,
         "nome": "Muriel Whitfield",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -97,6 +101,7 @@
     },
     {
         "id": 11,
+        "idCategoria": 5,
         "nome": "Cooke Norton",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -106,6 +111,7 @@
     },
     {
         "id": 12,
+        "idCategoria": 5,
         "nome": "Juanita Haley",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -115,6 +121,7 @@
     },
     {
         "id": 13,
+        "idCategoria": 6,
         "nome": "Helene Mckay",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -124,6 +131,7 @@
     },
     {
         "id": 14,
+        "idCategoria": 7,
         "nome": "Caroline Harrison",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -133,6 +141,7 @@
     },
     {
         "id": 15,
+        "idCategoria": 8,
         "nome": "Bruce Torres",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -142,6 +151,7 @@
     },
     {
         "id": 16,
+        "idCategoria": 9,
         "nome": "Natalie Medina",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -151,6 +161,7 @@
     },
     {
         "id": 17,
+        "idCategoria": 10,
         "nome": "Bean Sloan",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -160,6 +171,7 @@
     },
     {
         "id": 18,
+        "idCategoria": 11,
         "nome": "Socorro Avery",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -169,6 +181,7 @@
     },
     {
         "id": 19,
+        "idCategoria": 12,
         "nome": "Ericka Wagner",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
@@ -178,6 +191,7 @@
     },
     {
         "id": 20,
+        "idCategoria": 13,
         "nome": "York Mullins",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
