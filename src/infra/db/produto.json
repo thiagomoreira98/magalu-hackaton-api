@@ -6,7 +6,7 @@
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique interdum nisl, id tincidunt arcu malesuada sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus accumsan turpis vel magna congue, vitae blandit justo euismod. Ut justo erat, semper vitae eros eget, scelerisque lacinia lorem. In faucibus sapien vitae posuere egestas. Aliquam in magna neque. Vestibulum imperdiet lacus vel est facilisis, ac tempus risus cursus. Vivamus non enim eget est varius fringilla.",
         "fichaTecnica": "Quisque sollicitudin iaculis quam eu tincidunt. Vestibulum eu commodo sem, sit amet auctor diam. Donec gravida, purus sed tincidunt placerat, elit lectus vestibulum eros, eget commodo nibh ex a magna. Sed consequat dictum finibus. Cras pellentesque condimentum nunc in rutrum. Mauris risus erat, vehicula nec velit eget, scelerisque pharetra lectus. Aliquam erat volutpat. Pellentesque nisi dolor, ultrices sed posuere eget, porta ut diam. In dictum luctus sapien et vestibulum. Aenean vel purus est. Phasellus id odio at enim finibus vulputate. Fusce lacus urna, malesuada sit amet dapibus ut, ullamcorper finibus tortor. Morbi aliquet tellus ut tincidunt tempor. Mauris auctor pharetra mi, sit amet lacinia ipsum lobortis eget. Curabitur ut tincidunt leo. Donec imperdiet consectetur turpis, id viverra nisi tincidunt posuere.",
         "preco": 5899.00,
-        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/notebook.png",
+        "imagem": "https://magalu-hackaton-api.herokuapp.com/public/produtos/noteasus.png",
         "taxaJuros": 10
     },
     {

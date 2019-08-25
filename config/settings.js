@@ -4,7 +4,7 @@ module.exports = {
         key: 'M@G4lu$#2OI9_H4CK@t0N',
     },
     firebase: {
-        url: '',
+        url: 'https://fcm.googleapis.com/fcm/send',
         key: ''
     }
 }
